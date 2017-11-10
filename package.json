@@ -1,0 +1,20 @@
+{
+  "name": "es6",
+  "version": "1.0.0",
+  "description": "es6 practice",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "author": "viviancan",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "jquery": "^3.2.1",
+    "webpack": "^3.8.1"
+  }
+}
